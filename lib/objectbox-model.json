@@ -1,0 +1,123 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:7458871411463573368",
+      "lastPropertyId": "7:3873964652748130017",
+      "name": "ChatMessageEntity",
+      "properties": [
+        {
+          "id": "1:1956111505892853562",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:4156066204207142179",
+          "name": "content",
+          "type": 9
+        },
+        {
+          "id": "3:7956142709383740204",
+          "name": "role",
+          "type": 9
+        },
+        {
+          "id": "4:4797666192326777968",
+          "name": "timestamp",
+          "type": 10
+        },
+        {
+          "id": "5:8405762128786076914",
+          "name": "estimatedTokens",
+          "type": 6
+        },
+        {
+          "id": "6:1090035181450707871",
+          "name": "estimatedCost",
+          "type": 8
+        },
+        {
+          "id": "7:3873964652748130017",
+          "name": "sessionId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "1:3643020334604267465",
+          "relationTarget": "ChatSessionEntity"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:4219731854516186011",
+      "lastPropertyId": "5:8952544034938923350",
+      "name": "ChatSessionEntity",
+      "properties": [
+        {
+          "id": "1:1762263540956521470",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:2127559019745157922",
+          "name": "title",
+          "type": 9
+        },
+        {
+          "id": "3:6930892090358354320",
+          "name": "createdAt",
+          "type": 10
+        },
+        {
+          "id": "4:7345138939472983851",
+          "name": "selectedModel",
+          "type": 9
+        },
+        {
+          "id": "5:8952544034938923350",
+          "name": "selectedProvider",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:7277343937576684152",
+      "lastPropertyId": "3:265515768545759117",
+      "name": "AppSettingsEntity",
+      "properties": [
+        {
+          "id": "1:4775809739107013484",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:2751849935647987923",
+          "name": "budgetLimit",
+          "type": 8
+        },
+        {
+          "id": "3:265515768545759117",
+          "name": "blockOnLimit",
+          "type": 1
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "3:7277343937576684152",
+  "lastIndexId": "1:3643020334604267465",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
