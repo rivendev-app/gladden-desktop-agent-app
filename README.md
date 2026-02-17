@@ -17,10 +17,13 @@ Gladden is a multi-provider local AI desktop agent built with Flutter. It's desi
 
 ### Installation
 
-1. Clone the repository (the code is already in this folder).
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/rivendev-app/gladden-desktop-agent-app.git
+   ```
 2. Navigate to the project directory:
    ```bash
-   cd Gladden
+   cd gladden-desktop-agent-app
    ```
 3. Install dependencies:
    ```bash

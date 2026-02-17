@@ -245,9 +245,9 @@ class SettingsScreen extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              _buildLinkButton(context, 'GitHub', LucideIcons.github, 'https://github.com/pedroafonsojs/gladden'),
+              _buildLinkButton(context, 'GitHub', LucideIcons.github, 'https://github.com/rivendev-app/gladden-desktop-agent-app'),
               const SizedBox(width: 16),
-              _buildLinkButton(context, 'Website', LucideIcons.globe, 'https://gladden.ai'),
+              _buildLinkButton(context, 'Website', LucideIcons.globe, 'https://rivendev.app'),
             ],
           ),
           const SizedBox(height: 24),
