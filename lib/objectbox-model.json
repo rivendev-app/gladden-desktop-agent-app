@@ -42,9 +42,9 @@
         {
           "id": "7:3873964652748130017",
           "name": "sessionId",
+          "indexId": "1:3643020334604267465",
           "type": 11,
           "flags": 520,
-          "indexId": "1:3643020334604267465",
           "relationTarget": "ChatSessionEntity"
         }
       ],
